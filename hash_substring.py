@@ -17,7 +17,7 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
     else:
-        with open('./tests/'+file, 'r') as f:
+        with open('./tests/', 'r') as f:
             pattern = f.readline().rstrip()
             text = f.readline().rstrip()
     
